@@ -1,37 +1,67 @@
 .book-search-page {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .book-search-page h2 {
-    margin-bottom: 20px;
-  }
-  
-  .book-search-page input {
-    width: 50%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
-  .book-search-page .results {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .book-search-page .bookshelf-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .book-search-page .bookshelf-button:hover {
-    background-color: #45a049;
-  }
-  
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #ffffff;
+  margin: 40px auto;
+  max-width: 900px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.book-search-page h2 {
+  margin-bottom: 30px;
+  color: #00796b;
+  font-size: 28px;
+}
+
+.book-search-page input {
+  width: 70%;
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  border: 2px solid #ccc;
+  font-size: 18px;
+  outline: none;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.book-search-page input:focus {
+  border-color: #00796b;
+  box-shadow: 0 0 8px rgba(0, 121, 107, 0.2);
+}
+
+.book-search-page .results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.book-search-page .bookshelf-button {
+  margin-top: 30px;
+  padding: 14px 30px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.book-search-page .bookshelf-button:hover {
+  background-color: #004d40;
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.loader {
+  font-size: 18px;
+  color: #00796b;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}

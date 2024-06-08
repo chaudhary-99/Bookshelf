@@ -10,10 +10,16 @@ const BookshelfPage = () => {
     setBooks(storedBooks);
   }, []);
 
+  const removeBook = (key) => {
+    const updatedBooks = books.filter(book => book.key !== key);
+    setBooks(updatedBooks);
+    localStorage.setItem('bookshelf', JSON.stringify(updatedBooks));
+  };
+
   return (
     <div className="bookshelf-page">
       <h1>My Bookshelf</h1>
-      <Bookshelf books={books} />
+      <Bookshelf books={books} onRemove={removeBook} />
       <button className="back-button" onClick={() => window.location.href='/'}>Back to Search</button>
     </div>
   );
