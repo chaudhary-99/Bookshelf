@@ -1,0 +1,31 @@
+.book-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .book-card h3 {
+    margin: 0 0 10px;
+  }
+  
+  .book-card p {
+    margin: 0 0 10px;
+  }
+  
+  .book-card button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .book-card button:hover {
+    background-color: #45a049;
+  }
+  

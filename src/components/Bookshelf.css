@@ -1,0 +1,10 @@
+.bookshelf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .bookshelf .book-card {
+    margin: 20px;
+  }
+  

@@ -1,0 +1,23 @@
+.bookshelf-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .bookshelf-page h1 {
+    margin-bottom: 20px;
+  }
+  
+  .bookshelf-page .back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .bookshelf-page .back-button:hover {
+    background-color: #45a049;
+  }
+  
