@@ -13,24 +13,7 @@ This project is a React application that allows users to search for books using 
 
 ## Demo
 
-[Live Demo](#) - (Replace with the actual link to your live demo)
-
-## Screenshots
-
-### Home Page
-![Home Page](#) - (Replace with the actual link to your screenshot)
-
-### Bookshelf Page
-![Bookshelf Page](#) - (Replace with the actual link to your screenshot)
-
-## Installation
-
-Follow these steps to set up the project locally on your machine.
-
-### Prerequisites
-
-- Node.js (v12 or higher)
-- npm or yarn
+[Live Demo](https://main--bookshelf99.netlify.app) - (Replace with the actual link to your live demo)
 
 ### Steps
 
@@ -56,27 +39,10 @@ Follow these steps to set up the project locally on your machine.
 
 4. *Open your browser* and navigate to:
     
-    http://localhost:3000
+    http://localhost:4000
     
 
-## Project Structure
 
-- *src/*
-  - *components/*
-    - BookCard.js
-    - Bookshelf.js
-  - *pages/*
-    - BookSearchPage.js
-    - BookshelfPage.js
-  - App.js
-  - index.js
-  - App.css
-  - BookSearchPage.css
-  - BookshelfPage.css
-  - BookCard.css
-  - Bookshelf.css
-
-## Usage
 
 ### Searching for Books
 
